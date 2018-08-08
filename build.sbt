@@ -25,6 +25,8 @@ netLogoClassManager := "org.nlogo.extensions.cf.CFExtension"
 netLogoTarget :=
   org.nlogo.build.NetLogoExtension.directoryTarget(baseDirectory.value)
 
+version := "2.0.0"
+
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.0" % "test",
   "org.picocontainer" % "picocontainer" % "2.13.6" % "test",
