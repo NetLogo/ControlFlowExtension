@@ -51,4 +51,4 @@ cleanFiles ++= {
   Seq(base / "cf.jar")
 }
 
-netLogoVersion := "6.0.2-M1"
+netLogoVersion := "6.0.4-9328ba6"
