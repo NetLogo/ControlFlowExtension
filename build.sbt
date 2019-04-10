@@ -1,7 +1,7 @@
 enablePlugins(org.nlogo.build.NetLogoExtension)
 enablePlugins(org.nlogo.build.ExtensionDocumentationPlugin)
 
-scalaVersion := "2.12.0"
+scalaVersion := "2.12.8"
 
 scalaSource in Compile := baseDirectory.value / "src" / "main"
 
@@ -25,7 +25,7 @@ netLogoClassManager := "org.nlogo.extensions.cf.CFExtension"
 netLogoTarget :=
   org.nlogo.build.NetLogoExtension.directoryTarget(baseDirectory.value)
 
-version := "2.0.0"
+version := "2.0.1"
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.0" % "test",
@@ -51,4 +51,4 @@ cleanFiles ++= {
   Seq(base / "cf.jar")
 }
 
-netLogoVersion := "6.0.4-9328ba6"
+netLogoVersion := "6.1.0-RC2"
